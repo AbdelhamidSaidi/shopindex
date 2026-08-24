@@ -19,8 +19,7 @@ from . import geo, taxonomy
 from .kinds import classify_kind, is_moroccan, is_parked, salient, ships_morocco
 from .models import Vendor
 from .normalize import (
-    clean_name, clean_url, find_emails, find_phones, is_social,
-    normalize_slug, root_host, whatsapp_from_url,
+    clean_name, clean_url, find_emails, find_phones, normalize_slug, root_host, whatsapp_from_url,
 )
 from .price import aggregate
 from .score import apply_score

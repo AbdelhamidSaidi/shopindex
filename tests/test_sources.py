@@ -1,5 +1,4 @@
 """OSM and Wikidata discovery sources, tested against real payload shapes."""
-import json
 
 from fbvendors.osm import OSM_CATEGORY, parse_elements
 from fbvendors.wikidata import parse as wd_parse
