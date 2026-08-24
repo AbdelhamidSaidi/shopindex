@@ -1,0 +1,8 @@
+# One Facebook Page URL or slug per line. Blank lines and #comments are ignored.
+# Any CSV export works too - the first column is scanned for facebook.com links.
+https://www.facebook.com/gourmandiacheese
+https://www.facebook.com/librairie.chaymae
+https://www.facebook.com/lepanierdufermiermaroc
+https://www.facebook.com/ortiz.maarif
+https://www.facebook.com/InFine.Epicerie.Gourmande
+https://www.facebook.com/lesmaitresdumarche

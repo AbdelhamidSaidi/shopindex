@@ -1,0 +1,5 @@
+python run_app.py --refresh                    # re-fetch every source instead of reusing data/
+python run_app.py --skip facebook              # skip a stage (repeatable)
+python run_app.py --only sites --only merge    # run just these
+python run_app.py --limit 200                  # cap the Facebook stage
+python run_app.py --all                        # keep every row, not only sellers

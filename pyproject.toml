@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fbvendors"
+version = "0.1.0"
+description = "Collect Moroccan vendor business data from public Facebook Pages"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.45",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "rich>=13.7",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+fbvendors = "fbvendors.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fbvendors*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

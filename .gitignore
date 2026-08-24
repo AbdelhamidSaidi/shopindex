@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/cache/
+data/state.sqlite3
+data/*.csv
+data/*.tsv
+secrets/
+fb_session.json
+.pytest_cache/
+*.egg-info/
+build/
+dist/

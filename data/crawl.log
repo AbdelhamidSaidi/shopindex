@@ -1,0 +1,104 @@
+
+=== round 1: 2335 sites ===
+    50/2335 fetched, 20 vendors
+    100/2335 fetched, 46 vendors
+    150/2335 fetched, 74 vendors
+    200/2335 fetched, 104 vendors
+    250/2335 fetched, 127 vendors
+    300/2335 fetched, 155 vendors
+    350/2335 fetched, 187 vendors
+    400/2335 fetched, 215 vendors
+    450/2335 fetched, 242 vendors
+    500/2335 fetched, 274 vendors
+    550/2335 fetched, 300 vendors
+    600/2335 fetched, 332 vendors
+    650/2335 fetched, 355 vendors
+    700/2335 fetched, 383 vendors
+    750/2335 fetched, 412 vendors
+    800/2335 fetched, 444 vendors
+    850/2335 fetched, 473 vendors
+    900/2335 fetched, 504 vendors
+    950/2335 fetched, 535 vendors
+    1000/2335 fetched, 559 vendors
+    1050/2335 fetched, 579 vendors
+    1100/2335 fetched, 606 vendors
+    1150/2335 fetched, 638 vendors
+    1200/2335 fetched, 668 vendors
+    1250/2335 fetched, 696 vendors
+    1300/2335 fetched, 723 vendors
+    1350/2335 fetched, 753 vendors
+    1400/2335 fetched, 780 vendors
+    1450/2335 fetched, 813 vendors
+    1500/2335 fetched, 851 vendors
+    1550/2335 fetched, 885 vendors
+    1600/2335 fetched, 911 vendors
+    1650/2335 fetched, 938 vendors
+    1700/2335 fetched, 968 vendors
+    1750/2335 fetched, 997 vendors
+    1800/2335 fetched, 1018 vendors
+    1850/2335 fetched, 1042 vendors
+    1900/2335 fetched, 1069 vendors
+    1950/2335 fetched, 1097 vendors
+    2000/2335 fetched, 1131 vendors
+    2050/2335 fetched, 1165 vendors
+    2100/2335 fetched, 1193 vendors
+    2150/2335 fetched, 1218 vendors
+    2200/2335 fetched, 1238 vendors
+    2250/2335 fetched, 1263 vendors
+    2300/2335 fetched, 1287 vendors
+  round 1: 1305 vendors, 1319 outbound .ma links
+  new hosts for next round: 642
+
+=== round 2: 642 sites ===
+    50/642 fetched, 25 vendors
+    100/642 fetched, 50 vendors
+/Users/abdelhamid/projects/facebook_scraping/fbvendors/site.py:64: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  soup = BeautifulSoup(r.text, "html.parser")
+/Users/abdelhamid/projects/facebook_scraping/fbvendors/site.py:105: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  soup = BeautifulSoup(res.html or "", "html.parser")
+    150/642 fetched, 88 vendors
+    200/642 fetched, 123 vendors
+    250/642 fetched, 149 vendors
+    300/642 fetched, 192 vendors
+    350/642 fetched, 229 vendors
+    400/642 fetched, 268 vendors
+    450/642 fetched, 302 vendors
+    500/642 fetched, 339 vendors
+    550/642 fetched, 374 vendors
+    600/642 fetched, 412 vendors
+  round 2: 443 vendors, 858 outbound .ma links
+  new hosts for next round: 230
+
+=== round 3: 230 sites ===
+    50/230 fetched, 26 vendors
+    100/230 fetched, 56 vendors
+    150/230 fetched, 90 vendors
+    200/230 fetched, 129 vendors
+  round 3: 154 vendors, 337 outbound .ma links
+  new hosts for next round: 46
+
+=== round 4: 46 sites ===
+  round 4: 24 vendors, 55 outbound .ma links
+  new hosts for next round: 4
+
+TOTAL vendors scraped from websites: 1926
